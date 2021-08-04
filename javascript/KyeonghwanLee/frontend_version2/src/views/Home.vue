@@ -116,6 +116,17 @@
                     active-class="active">
                 Vuetify 활용
             </router-link>
+            <router-link :to="{ name: 'MemberRegisterPage' }"
+                    class="nav-link"
+                    active-class="active">
+                회원 가입
+            </router-link>
+            <router-link :to="{ name: 'CoverFlowTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                커버 플로우 테스트
+            </router-link>
+
         </div>
     </div>
 </template>

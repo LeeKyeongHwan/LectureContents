@@ -165,7 +165,7 @@
         <!--@click="nav_drawer = !nav_drawer drawer 보였다 안보였다하게 함-->
         <v-toolbar dense dark>
             <v-app-bar-nav-icon @click="nav_drawer = !nav_drawer">
-            </v-app-bar-nav-icon>
+            </v-app-bar-nav-icon>  
             <v-toolbar-title>
                 <span class="font-weight-light">쵝오의 여행!</span>
                 <span>꾸르팁</span>
@@ -211,6 +211,7 @@
             </v-menu>
         </div>
         <!-- header는 v-dat-table로 넘어간다 얘를 제목으로 만들어줌-->
+        <!-- :headrs, items는 v-data-table에 이미 props로 들어가있는것이다.-->
         <v-container>
             <v-data-table :headers="headerTitle"
                     :items="contents"

@@ -55,6 +55,10 @@ import MaterializeTestPage from '@/views/MaterializeTestPage.vue'
 import MaterializeGridTestPage from '@/views/MaterializeGridTestPage.vue'
 import VuetifyAllInOneTestPage from '@/views/VuetifyAllInOneTestPage.vue'
 
+import MemberRegisterPage from '@/views/MemberRegisterPage.vue'
+import CoverFlowTestPage from '@/views/CoverFlowTestPage.vue'
+
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -285,6 +289,20 @@ const routes = [
     name: 'VuetifyAllInOneTestPage',
     components: {
       default: VuetifyAllInOneTestPage
+    }
+  },
+  {
+    path: '/member/create',
+    name: 'MemberRegisterPage',
+    components: {
+      default: MemberRegisterPage
+    }
+  },
+  {
+    path: '/coverFlow',
+    name: 'CoverFlowTestPage',
+    components: {
+      default: CoverFlowTestPage
     }
   },
 ]
