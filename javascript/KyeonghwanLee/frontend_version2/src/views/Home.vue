@@ -126,6 +126,26 @@
                     active-class="active">
                 커버 플로우 테스트
             </router-link>
+            <router-link :to="{ name: 'AwesomeSwiperTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                Awesome Swiper Test
+            </router-link>
+            <router-link :to="{ name: 'LikeFacebookPage' }"
+                    class="nav-link"
+                    active-class="active">
+                Like Facebook Test
+            </router-link>
+            <router-link :to="{ name: 'ImageGalleryTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                ImageGalleryTestPage
+            </router-link>
+            <router-link :to="{ name: 'CalenderTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                Calender Test
+            </router-link>
 
         </div>
     </div>
