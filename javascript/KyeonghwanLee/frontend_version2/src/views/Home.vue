@@ -131,11 +131,6 @@
                     active-class="active">
                 Awesome Swiper Test
             </router-link>
-            <router-link :to="{ name: 'LikeFacebookPage' }"
-                    class="nav-link"
-                    active-class="active">
-                Like Facebook Test
-            </router-link>
             <router-link :to="{ name: 'ImageGalleryTestPage' }"
                     class="nav-link"
                     active-class="active">
@@ -145,6 +140,11 @@
                     class="nav-link"
                     active-class="active">
                 Calender Test
+            </router-link>
+            <router-link :to="{ name: 'MemberJoinColumnTestPage' }"
+                    class="nav-link"
+                    active-class="active">
+                Member Join Column Test
             </router-link>
 
         </div>
